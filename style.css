@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, rgb(186, 253, 225), rgb(166, 153, 254));
+}
+
+.container {
+    background-color: white;
+    width: 50vw;
+    margin: 100px auto;
+    box-shadow: 2px 2px 15px rgb(150, 136, 177);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container h1 {
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(133, 56, 205);
+}
+
+label {
+    margin-top: 5px;
+}
+.container .content {
+    font-size: 20px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+input {
+    padding: 5px 10px;
+    width: 250px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+input:focus {
+    border: 2px dotted  rgb(133, 56, 205);
+}
+
+button {
+    width: 150px; height: 42px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(133, 56, 205);
+    box-shadow: 1px 1px 2px gray;
+}
+button:active {
+    box-shadow: none;
+}
+
+.second-row {
+    display: flex; justify-content: space-between;
+    margin-top: 40px;
+}
+
+.second-row p {
+    padding: 10px 0;
+}
+
+.ans1, .ans2, .ans3{
+    width: 100px; height: 35px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(198, 198, 198);
+}
+
+.year, .month, .day {
+    text-align: center;
+    font-size: 17px;
+}
+
+.third-row {
+    width: 250px;
+    padding: 12px 0;
+    text-align: center;
+    margin: 28px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(198, 198, 198);
+    opacity: 0;
+    transition: opacity 1s ease;
+}
