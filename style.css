@@ -9,7 +9,7 @@ body{
 
 .container {
     background-color: white;
-    width: 50vw;
+    max-width: 900px;
     margin: 100px auto;
     box-shadow: 2px 2px 15px rgb(150, 136, 177);
     border-radius: 15px;
@@ -22,8 +22,8 @@ body{
 }
 
 .container h1 {
-    padding: 5px 0;
-    text-align: center;
+    font-size: 23px;
+    padding: 10px 5px;
     color: white;
     background-color: rgb(133, 56, 205);
 }
@@ -94,4 +94,15 @@ button:active {
     box-shadow: 1px 1px 5px rgb(198, 198, 198);
     opacity: 0;
     transition: opacity 1s ease;
+}
+
+.result p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.result p span {
+    font-size: 17px;
+    margin-left: 4px;
 }
